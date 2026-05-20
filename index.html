@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人介绍网页，展示个人简介、业务技能、项目案例与联系方式。"
+    />
+    <title>个人介绍 | Alex Chen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">AC</span>
+        <span>Alex Chen</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">简介</a>
+        <a href="#services">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="menu-button" type="button" aria-label="打开导航" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-nav" data-mobile-nav>
+      <a href="#about">个人简介</a>
+      <a href="#services">业务/技能</a>
+      <a href="#projects">项目案例</a>
+      <a href="#contact">联系方式</a>
+    </div>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent Consultant & Product Builder</p>
+          <h1>Alex Chen</h1>
+          <p class="hero-line">用清晰的策略、可靠的执行和现代化体验，帮助想法落地为可增长的产品。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">联系我</a>
+            <a class="button secondary" href="#projects">查看案例</a>
+          </div>
+        </div>
+        <div class="profile-panel" aria-label="个人信息摘要">
+          <div class="portrait" role="img" aria-label="个人照片占位">
+            <span>AC</span>
+          </div>
+          <div class="profile-meta">
+            <span>所在地：上海 / 远程协作</span>
+            <span>方向：产品策略、前端开发、品牌数字化</span>
+            <span>合作：咨询、项目制、长期顾问</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>个人简介</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            我是一名关注产品体验与商业结果的数字化顾问，擅长把模糊需求梳理成清晰路径，并通过设计、技术与运营协同推进项目落地。
+          </p>
+          <p>
+            过去服务过创业团队、本地品牌与专业服务机构，参与从品牌官网、业务系统到增长页面的规划与实现。我的工作方式注重结构化沟通、阶段性交付和可持续维护。
+          </p>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>业务/技能</h2>
+        </div>
+        <div class="card-grid">
+          <article class="skill-card">
+            <span class="card-index">01</span>
+            <h3>产品与内容策略</h3>
+            <p>梳理目标用户、核心卖点、页面结构与转化路径，让表达更聚焦。</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-index">02</span>
+            <h3>网站与前端开发</h3>
+            <p>使用 HTML、CSS、JavaScript 构建响应式网页，兼顾性能与维护成本。</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-index">03</span>
+            <h3>品牌数字化呈现</h3>
+            <p>为个人品牌、服务品牌和项目展示打造简洁可信的线上形象。</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-index">04</span>
+            <h3>项目管理与交付</h3>
+            <p>拆解任务、控制节奏、明确验收标准，让项目推进更稳定。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>项目案例</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div>
+              <p class="project-type">品牌官网</p>
+              <h3>专业服务机构官网重构</h3>
+            </div>
+            <p>重新规划内容层级与视觉语言，完成多端适配页面，提高客户咨询入口的可见性。</p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">增长页面</p>
+              <h3>课程产品落地页设计开发</h3>
+            </div>
+            <p>围绕用户决策路径设计页面模块，加入案例证明、服务流程和明确行动按钮。</p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">工具原型</p>
+              <h3>内部业务看板原型</h3>
+            </div>
+            <p>搭建数据看板静态原型，用于团队评审、流程讨论和后续系统开发对齐。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>联系方式</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="tel:+8613800000000">+86 138 0000 0000</a>
+            <span>微信：your-wechat-id</span>
+            <span>LinkedIn / 小红书 / 即刻：@yourname</span>
+          </div>
+          <div class="qr-card">
+            <div class="qr-placeholder">
+              <img src="assets/wechat-qr.png" alt="微信二维码" data-qr-image />
+              <span>微信二维码</span>
+            </div>
+            <p>将你的微信二维码图片命名为 wechat-qr.png，放入 assets 文件夹后即可自动显示。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span data-year></span> Alex Chen. All rights reserved.</span>
+      <a href="#home">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
